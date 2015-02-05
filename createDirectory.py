@@ -3,6 +3,7 @@
 # Author: Ty Lim
 # Date: 2/4/2015
 # File name: createDirectory.py
+# Python Version: 3.X
 # Description: This is a simple example of how to check to see if a directory exist, and if not, create it.
 # This script also shows an example of how to create a file name with a time stamp, use that filen name
 # to open a file for writing, and write to the file, and finally, close it.

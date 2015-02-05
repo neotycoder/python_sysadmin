@@ -4,10 +4,9 @@
 # Date: 2/4/2015
 # File name: createDirectory.py
 # Python Version: 3.X
-# Description: This is a simple example of how to check to see if a directory exist, and if not, create it.
-# This script also shows an example of how to create a file name with a time stamp, use that filen name
-# to open a file for writing, and write to the file, and finally, close it.
-
+# Description: This script shows the example of how concatenation works in python, utilizing the os module to check a directory
+# and create it if it does not exist, and opening and closing a file for writing.
+# 
 # This is nothing too difficult, and you can certainly add more functionality to it if you wish.
 # One idea is to build this whole example into an object with subsequent methods.
 

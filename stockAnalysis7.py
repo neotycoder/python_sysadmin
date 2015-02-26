@@ -4,6 +4,7 @@
 +# Date: August 30, 2014
 +# Description: This program gather all COGS, SGA, Revenue information for a NASDAQ traded stock and
 +# displays and makes all pertinent CVP calcualtions for that stock based on released financial data.
+# Essentially this script is my attempt at playing around with the BeautifulSoup module in python. 
 +# Notes:
 +# 1. This application utilizes Google Finance to read in stock information.
 +# 2. This application reads in financial data from a fixed position within the Google Finance generated html file.

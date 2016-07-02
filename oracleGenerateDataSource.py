@@ -3,7 +3,7 @@
 # Script Name: oracleDataSourceCreate.py
 # Author: Ty Lim
 # Date: 06/30/2016
-# Description: This is a simple script that will allow for a standard creation of an Oracle data source entry in WebSphere Liberty.
+# Description: Thi is a simple script that will generate an XML stub for a WebSphere Liberty JVM's server.xml file.
 
 """
 Sample Usage and Output:
@@ -33,8 +33,6 @@ Password: thisismypassw0rd
 """
 
 import subprocess
-
-
 
 def inputOracleParam():
 	"""Input all the required Oracle Parameters 
@@ -78,8 +76,7 @@ def generateOutput(datasource):
 def encodePassword(password):
 
 	# Path to securityUtility
-	#secUtilityPath="/opt/IBM/WebSphere/Liberty/bin/securityUtility "
-	secUtilityPath="/Users/neoty/Projects/WAS_Liberty/16.0.0.2/wlp/bin/securityUtility "
+	secUtilityPath="/opt/IBM/WebSphere/Liberty/bin/securityUtility "
 	secUtilityParam1="encode "
 	secUtilityParam2=" --notrim"
 	cmd=secUtilityPath+secUtilityParam1+password+secUtilityParam2
@@ -99,11 +96,4 @@ def main():
 if __name__ == '__main__':
 	main()
 
-
-
-# For Reference Use:
-#  <dataSource jndiName="" type="javax.sql.DataSource">
-#        <jdbcDriver libraryRef="oracleLib"/>
-#       <properties.oracle URL="jdbc:oracle:thin:@<server>:<port>:<dbname>" databaseName="" driverType="thin" password="" portNumber="" serverName="" user=""/>
-#    </dataSource>
 

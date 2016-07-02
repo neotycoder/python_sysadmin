@@ -81,7 +81,6 @@ def encodePassword(password):
 	secUtilityParam2=" --notrim"
 	cmd=secUtilityPath+secUtilityParam1+password+secUtilityParam2
 	encodedPassword = subprocess.check_output(cmd, shell=True)
-	print encodedPassword
 
 	return encodedPassword.rstrip("\n")
 

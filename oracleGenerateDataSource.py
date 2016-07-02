@@ -88,12 +88,8 @@ def encodePassword(password):
 def main():
 	appName, jndi, server, port, db, user, password = inputOracleParam()
 	encodedPassword = encodePassword(password)
-	#datasource = createXML(appName, jndi, server, port, db, user, password)
-	# 	Uncomment the following line once you test on a liberty server.
 	datasource = createXML(appName, jndi, server, port, db, user, encodedPassword)
 	generateOutput(datasource)
 
 if __name__ == '__main__':
 	main()
-
-

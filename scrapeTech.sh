@@ -1,5 +1,4 @@
 #!/bin/sh
-# Author: Ty Lim
 # Date: 02-23-2015
 # Description: Simple little shell bash shell script to scrape info on a site that's either using Google Analytics, or utilizing Dyn DNS.
 

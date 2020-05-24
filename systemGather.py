@@ -2,7 +2,6 @@
 
 """
 	Name: systemGather.py
-	Author: Ty Lim
 	Date: July 14, 2016
 	Description: Simple example on how to use the subprocess module to gather some system info.
 

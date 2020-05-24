@@ -1,6 +1,5 @@
 #!/usr/bin/python
 
-# Author: Ty Lim
 # Date: 2/4/2015
 # File name: createDirectory.py
 # Python Version: 3.X

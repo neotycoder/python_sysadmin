@@ -1,7 +1,6 @@
 #!/usr/bin/python
 
 # Script Name: oracleDataSourceCreate.py
-# Author: Ty Lim
 # Date: 06/30/2016
 # Description: This is a simple script that will generate an XML stub for a WebSphere Liberty JVM's server.xml file.
 
